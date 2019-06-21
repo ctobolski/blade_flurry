@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 let styles = require("./Counter.scss");
 
-export function Counter() {
+function Counter() {
   return (
     <div>
       <div className={styles.backButton} data-tid="backButton">
